@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.noc.testcases.Homepagetest">
+      <class name="com.noc.testcases.Loginpagetest">
         <methods>
-          <include name="verify_title"/>
+          <include name="logintest"/>
           <include name="setup"/>
-          <include name="teardown"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- com.noc.testcases.Homepagetest -->
+      </class> <!-- com.noc.testcases.Loginpagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

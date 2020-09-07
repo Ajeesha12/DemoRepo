@@ -24,7 +24,7 @@ public class testbase {
 	try {
 		prop = new Properties();
 	    FileInputStream file;
-	   file = new FileInputStream (("C:\\Users\\Admin\\eclipse-workspace\\maventest\\src\\main\\java\\com\\noc\\config\\config.properties"));
+	   file = new FileInputStream (("C:\\Users\\Admin\\git\\DemoRepo\\maventest\\src\\main\\java\\com\\noc\\config\\config.properties"));
 	   prop.load(file);
 	} 
 	catch (FileNotFoundException e) {
@@ -58,7 +58,7 @@ public class testbase {
     
     
     
-    
+    //TEST
     
 	}
 
